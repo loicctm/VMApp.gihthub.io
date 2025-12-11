@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Virtual Manager</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+        }
+        
+        h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 15px;
+        }
+        
+        .last-updated {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+        
+        h2 {
+            color: #764ba2;
+            font-size: 1.8em;
+            margin-top: 35px;
+            margin-bottom: 15px;
+        }
+        
+        h3 {
+            color: #667eea;
+            font-size: 1.3em;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        ul {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .contact-box {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin-top: 30px;
+            border-radius: 5px;
+        }
+        
+        .contact-box strong {
+            color: #667eea;
+        }
+        
+        a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #eee;
+            text-align: center;
+            color: #666;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔒 Privacy Policy</h1>
+        <p class="last-updated">Last updated: December 11, 2025</p>
+        
+        <h2>1. Introduction</h2>
+        <p>
+            Welcome to Virtual Manager's Uber Eats Integration. We are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, and safeguard your data when you use our Uber Eats integration service for restaurant management.
+        </p>
+        
+        <h2>2. Information We Collect</h2>
+        
+        <h3>2.1 Restaurant Information</h3>
+        <ul>
+            <li>Restaurant name and Uber Eats store identifiers</li>
+            <li>Uber Eats account credentials and API tokens</li>
+        </ul>
+        
+        <h3>2.2 Uber Eats Data</h3>
+        <ul>
+            <li>Order information from Uber Eats platform</li>
+            <li>Sales reports and transaction data</li>
+            <li>Menu information and pricing</li>
+            <li>Promotional data and reporting metrics</li>
+        </ul>
+        
+        <h3>2.3 Technical Information</h3>
+        <ul>
+            <li>OAuth authentication tokens from Uber Eats</li>
+            <li>API request logs</li>
+            <li>System performance metrics</li>
+        </ul>
+        
+        <h2>3. How We Use Your Information</h2>
+        <p>We use the collected information exclusively for the following purposes:</p>
+        <ul>
+            <li><strong>Uber Eats Integration:</strong> To retrieve and aggregate sales data from your Uber Eats restaurant account</li>
+            <li><strong>Authentication:</strong> To maintain secure OAuth connections with Uber Eats API</li>
+            <li><strong>Data Synchronization:</strong> To periodically fetch order, menu, and reporting data from Uber Eats</li>
+            <li><strong>Analytics:</strong> To display consolidated sales reports and insights from your Uber Eats operations</li>
+            <li><strong>Security:</strong> To protect your Uber Eats credentials and ensure secure data transmission</li>
+        </ul>
+        
+        <h2>4. Data Storage and Security</h2>
+        
+        <h3>4.1 Security Measures</h3>
+        <p>We implement industry-standard security practices:</p>
+        <ul>
+            <li>End-to-end encryption for sensitive data transmission</li>
+            <li>Secure credential storage using Google Secret Manager</li>
+            <li>OAuth 2.0 authentication for third-party integrations</li>
+            <li>Regular security audits and monitoring</li>
+            <li>Access controls and authentication requirements</li>
+        </ul>
+        
+        <h3>4.2 Data Location</h3>
+        <p>
+            Your data is stored in secure cloud infrastructure (Supabase, Google Cloud Platform) with servers located in Europe to comply with GDPR requirements.
+        </p>
+        
+        <h2>5. Third-Party Integration</h2>
+        <p>This service integrates exclusively with:</p>
+        <ul>
+            <li><strong>Uber Eats API:</strong> For retrieving order data, sales reports, menu information, and promotional data from your restaurant's Uber Eats account</li>
+            <li><strong>Supabase:</strong> For secure database hosting of your Uber Eats data</li>
+            <li><strong>Google Cloud Platform:</strong> For secure credential storage (OAuth tokens) and service hosting</li>
+        </ul>
+        <p>
+            We only access data from Uber Eats that is necessary to provide sales reporting and analytics services. Your Uber Eats credentials are stored securely using industry-standard encryption and OAuth 2.0 protocols. We do not share your Uber Eats data with any other third parties.
+        </p>
+        
+        <h2>6. Data Retention</h2>
+        <p>
+            We retain your Uber Eats data for as long as you use our integration service. You may request deletion of your data at any time by contacting us. OAuth authentication tokens are cached temporarily and refreshed automatically as needed. Expired tokens are removed periodically for security purposes.
+        </p>
+        
+        <h2>7. Your Rights</h2>
+        <p>Under GDPR and applicable data protection laws, you have the right to:</p>
+        <ul>
+            <li><strong>Access:</strong> Request a copy of your personal data</li>
+            <li><strong>Correction:</strong> Request correction of inaccurate data</li>
+            <li><strong>Deletion:</strong> Request deletion of your data</li>
+            <li><strong>Portability:</strong> Request transfer of your data to another service</li>
+            <li><strong>Objection:</strong> Object to certain data processing activities</li>
+            <li><strong>Restriction:</strong> Request restriction of processing in certain circumstances</li>
+        </ul>
+        
+        <h2>8. Cookies and Tracking</h2>
+        <p>
+            We use essential cookies for authentication and session management. We do not use tracking cookies or third-party analytics that collect personal information without your consent.
+        </p>
+        
+        <h2>9. Data Breach Notification</h2>
+        <p>
+            In the unlikely event of a data breach affecting your personal information, we will notify you and relevant authorities within 72 hours as required by GDPR.
+        </p>
+        
+        <h2>10. Children's Privacy</h2>
+        <p>
+            This Uber Eats integration service is designed exclusively for business use by restaurant operators and is not intended for individuals under 18 years of age. We do not knowingly collect personal information from children.
+        </p>
+        
+        <h2>11. Changes to This Policy</h2>
+        <p>
+            We may update this Privacy Policy from time to time to reflect changes in our Uber Eats integration practices or legal requirements. We will notify you of any significant changes by email or through our platform. The "Last updated" date at the top of this policy indicates when it was last revised.
+        </p>
+        
+        <h2>12. Legal Compliance</h2>
+        <p>
+            This Uber Eats integration service complies with:
+        </p>
+        <ul>
+            <li>General Data Protection Regulation (GDPR)</li>
+            <li>Belgian Privacy Laws</li>
+            <li>European Data Protection Directive</li>
+            <li>Uber Eats API Terms of Service and Privacy Requirements</li>
+        </ul>
+        
+        <div class="contact-box">
+            <h2>13. Contact Us</h2>
+            <p>
+                If you have any questions about this Privacy Policy or our Uber Eats integration data practices, please contact us:
+            </p>
+            <p>
+                <strong>Email:</strong> <a href="mailto:dev@lmjgroup.eu">dev@lmjgroup.eu</a><br>
+                <strong>Organization:</strong> LMJ Group<br>
+                <strong>Location:</strong> Belgium
+            </p>
+            <p>
+                For data protection inquiries related to your Uber Eats data or to exercise your rights under GDPR, please use the email above with the subject line "Uber Eats Data Protection Request".
+            </p>
+        </div>
+        
+        <div class="footer">
+            <p>© 2025 Virtual Manager - Uber Eats Integration - LMJ Group. All rights reserved.</p>
+            <p>This privacy policy is compliant with GDPR, Belgian data protection legislation, and Uber Eats API requirements.</p>
+        </div>
+    </div>
+</body>
+</html>
